@@ -1,3 +1,24 @@
 .parallax-container {
     height: "your height here";
   }
+
+body{
+    color: #616161;
+    text-align: justify;
+}
+
+.title{
+    color: #424242;
+    text-align: center;
+}
+
+.infoBlock{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 5%;
+    background-color: #eeeeee;
+}
+
+.infoBlock .option{
+    color: #0288d1 ;
+}

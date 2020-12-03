@@ -10,7 +10,7 @@
 </head>
 <body>
     <nav>
-        <div class="nav-wrapper">
+        <div class="nav-wrapper black">
             <a href="#" class="brand-logo">Portfolio</a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a class="active" href="#general_information">Iformation generale</a></li>
@@ -26,8 +26,9 @@
         </div>
         <div class="section white">
             <div class="row container">
-                        <h4 class="title">Information générale</h4>
-                        <div id="general_information" class="col s12">
+
+                        <div class="infoBlock z-depth-3" id="general_information" class="col s12">
+                            <h4 class="title">Information générale</h4>
                             <div class="row">
                                 <div class="col l6 m6 s12">
                                     <img class="responsive-img" src="../image/profil.jpg" alt="Profil">
@@ -44,9 +45,14 @@
                             </div>
                         </div>
                     
-                        <h4 class="title">Etude et diplome</h4>
-                        <div id="diplome" class="col s12">
-                            <table class="responsive-table">
+                        <div class="infoBlock z-depth-3" id="diplome" class="col s12">
+                            <h4 class="title">Etude et diplome</h4>
+                            <table class="responsive-table centered">
+                                <thead>
+                                    <th>Année</th>
+                                    <th>Diplome</th>
+                                    <th>Lieu</th>
+                                </thead>        
                                 <tr>
                                     <td class="date">2019</td>
                                     <td class="option">Licence en informatique, </td>
@@ -75,8 +81,8 @@
                             </table>
                         </div>
                     
-                        <h4 class="title">Expériences professionnelles</h4>
-                        <div id="experiences">
+                        <div class="infoBlock z-depth-3" id="experiences">
+                            <h4 class="title">Expériences professionnelles</h4>
                             <table class="responsive-table">
                                 <tr>
                                     <td>
@@ -85,7 +91,6 @@
                                                 <div class="card">
                                                     <div class="card-image">
                                                         <img src="../image/footballstats.png" alt="hippocrate">
-                                                        <span class="card-title">football Stats</span>
                                                     </div>
                                                     <div class="card-content">
                                                         <p>2018, application web developpée au sein de la société Malagasy Sport Association (MSA)</p>
@@ -105,7 +110,6 @@
                                                 <div class="card">
                                                     <div class="card-image">
                                                         <img src="../image/hippocrate.png" alt="hippocrate">
-                                                        <span class="card-title">Hippocrate</span>
                                                     </div>
                                                     <div class="card-content">
                                                         <p>2019, application web, projet de recherche au sein de l'Institut Superieur Polytechnique de Madagascar (ISPM)</p>
@@ -118,27 +122,16 @@
                                         </div>                            
                                     </td>
                                 </tr>
-                                <!-- <tr>
-                                    <td>
-                                        
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>
-                                        
-                                    </td>
-                                </tr> -->
                             </table>
                         </div>
                     
-                        <h4 class="title">Connaissance lingustique</h4>
-                        <div id="language">
+                        <div class="infoBlock z-depth-3" id="language">
+                            <h4 class="title">Connaissance lingustique</h4>
                             <table class="responsive-table centered">
+                                <thead>
+                                    <th>Langue</th>
+                                    <th>Niveau</th>
+                                </thead>
                                 <tr>
                                     <td class="language">Malagasy</td>
                                     <td class="level">Langue maternelle</td>
@@ -158,23 +151,34 @@
                             </table>
                         </div>
                     
-                        <h4 class="title">Centre d'interet</h4>
-                        <div id="interested">
-                            <div class="col s12 m6 l6">
-                                <ul>PASSION
-                                    <li>Culture physique</li>
-                                    <li>Voyage</li>
-                                </ul>
-                            </div>
-                            <div class="col s12 m6 l6">
-                                <ul>SPORTS
-                                    <li>Natation</li>
-                                    <li>Tennis</li>
-                                    <li>Football</li>
-                                    <li>Basket-ball</li>
-                                    <li>Kickboxing</li>
-                                </ul>
-                            </div>
+                        <div class="infoBlock z-depth-3" id="interested">
+                            <h4 class="title">Centre d'interet</h4>
+                            <table class="responsive-table centered">
+                                <thead>
+                                    <th>PASSION</th>
+                                    <th>SPORTS</th>
+                                </thead>
+                                <tr>
+                                    <td>Culture physique</td>
+                                    <td>Natation</td>
+                                </tr>
+                                <tr>
+                                    <td>Voyage</td>
+                                    <td>Tennis</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Football</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Basket-ball</td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td>Kickboxing</td>
+                                </tr>
+                            </table>
                         </div>
             </div>
         </div>
